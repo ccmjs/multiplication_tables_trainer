@@ -55,7 +55,7 @@ export function training( app ) {
       <div id="task">
         ${ section.task[ 0 ] } ${ app.text.mul } ${ section.task[ 1 ] } = <input class="form-control d-inline w-auto p-1" type="number" min="1" max="${ app.range[ 1 ] * 10 }">
       </div>
-      <div class="progress m-4">
+      <div class="progress rounded-pill m-4">
         <div class="progress-bar bg-primary" role="progressbar"></div>
       </div>
       <div id="points" class="d-flex flex-wrap">
