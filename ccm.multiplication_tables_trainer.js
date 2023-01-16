@@ -20,7 +20,7 @@
         { "url": "./libs/bootstrap-5/css/bootstrap-fonts.css", "context": "head" }
       ],
       "data": {},
-      "feedback": 1,
+      "feedback": 2,
       "helper": [ "ccm.load", { "url": "./libs/ccm/helper.js", "type": "module" } ],
       "html": [ "ccm.load", { "url": "./resources/templates.js", "type": "module" } ],
       "range": [ 1, 10 ],
