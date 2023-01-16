@@ -35,7 +35,7 @@ export function controls( app ) {
         <label>
           <div class="fw-bold">${ app.text.limit }</div>
           <div>
-            <input class="form-control d-inline w-auto p-1" type="number" name="timer" min="1" max="9" value="${ app.timer }" required>
+            <input class="form-control d-inline w-auto p-1" type="number" name="timer" min="1" max="60" value="${ app.timer }" required>
             ${ app.text.seconds }
           </div>
         </label>
